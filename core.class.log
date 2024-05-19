@@ -1,0 +1,155 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491136530246@s.whatsapp.net',
+    fromMe: false,
+    id: '5FBA19435CC7D2875B',
+    participant: undefined
+  },
+  messageTimestamp: 1716079883,
+  pushName: 'Mariano Dambolena',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'que gomas tenes en 205/55/16',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'que gomas tenes en 205/55/16',
+  from: '5491136530246'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3becf334-6fe7-416a-b28a-774f84c51c1f',
+  keyword: 'key_507dc39e-ab28-4e9f-bd61-beffa49e52a5',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '86ea180f18f9b122e1d92a383f2cab2c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491136530246@s.whatsapp.net',
+    fromMe: false,
+    id: '3A4E3D8D343DDC1863B0',
+    participant: undefined
+  },
+  messageTimestamp: 1716079967,
+  pushName: 'Mariano Dambolena',
+  broadcast: false,
+  message: Message {
+    conversation: 'Y 175 65 14 ?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Y 175 65 14 ?',
+  from: '5491136530246'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491136530246@s.whatsapp.net',
+    fromMe: false,
+    id: '3A61AEE8EE711CFFD287',
+    participant: undefined
+  },
+  messageTimestamp: 1716080035,
+  pushName: 'Mariano Dambolena',
+  broadcast: false,
+  message: Message {
+    conversation: 'Muchas gracias',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Muchas gracias',
+  from: '5491136530246'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3becf334-6fe7-416a-b28a-774f84c51c1f',
+  keyword: 'key_507dc39e-ab28-4e9f-bd61-beffa49e52a5',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '86ea180f18f9b122e1d92a383f2cab2c'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3becf334-6fe7-416a-b28a-774f84c51c1f',
+  keyword: 'key_507dc39e-ab28-4e9f-bd61-beffa49e52a5',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '86ea180f18f9b122e1d92a383f2cab2c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491136530246@s.whatsapp.net',
+    fromMe: false,
+    id: '3A079F4BF0A7C45E63DF',
+    participant: undefined
+  },
+  messageTimestamp: 1716080183,
+  pushName: 'Mariano Dambolena',
+  broadcast: false,
+  message: Message {
+    conversation: 'Podrías pasarme precio de 175/65/14 y 205/55/16',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Podrías pasarme precio de 175/65/14 y 205/55/16',
+  from: '5491136530246'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3becf334-6fe7-416a-b28a-774f84c51c1f',
+  keyword: 'key_507dc39e-ab28-4e9f-bd61-beffa49e52a5',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '86ea180f18f9b122e1d92a383f2cab2c'
+}
