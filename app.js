@@ -24,7 +24,7 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
             let messagesSQL = [
                 {
                     "role": "system",
-                    "content": "Eres una inteligencia artificial que transforma la consulta de un cliente de una casa de venta de neumaticos en una query sql. Para eso puedes usar esta tabla como referencia, donde en medida tendra la dimension de la goma por ejemplo 175/65/15 y en marca es la marca de la goma ejemplo yokohama. Esta es la tabla: CREATE TABLE NeumaticosAutos (neumatico_id INT PRIMARY KEY AUTO_INCREMENT,medida VARCHAR(50),marca VARCHAR(50)); solo quiero que devuelvas la query sin ningun texto adicional ni explicacion"
+                    "content": "tienes que generar una query identica esta:SELECT * FROM consultaCliente WHERE medida LIKE '175%65%14%';(no puedes cambiar la condicion del like) por la medida de neumatico que consulte el cliente. los atributos son medida, marca, modelo, precio_venta y la vista es consultaCliente. solo responder con la query, ser conciso"
                 },
                 { "role": "user", "content": ctx.body }
             ];
@@ -36,7 +36,7 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
                 if (!answerSQL) {
                     throw new Error("La respuesta SQL está vacía");
                 }
-
+                
                 const tyreQuery = await executeSQLQuery(answerSQL);
                 const tyreQueryText = recordsetToString(tyreQuery);
                 console.log("Tyre Query Text: ", tyreQueryText);
@@ -44,7 +44,7 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
                 let messages = [
                     {
                         "role": "system",
-                        "content": "Eres un vendedor de neumaticos y tu tarea es recibir un / unos neumaticos en lista junto con su marca. Ser conciso y no explayarse. solo repetir lo que se envia"
+                        "content": "Solo recibi el listado de productos e arma el mensaje en forma de lista. Ser conciso, no explayarse y responder en espaniol. Decir: 'tengo estas unidades en stock'"
                     },
                     { "role": "user", "content": tyreQueryText }
                 ];

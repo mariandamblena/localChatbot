@@ -28,6 +28,7 @@ const postCompletion = async (messages) => {
   }
 };
 
+
 // Función para realizar la solicitud al modelo de lenguaje y devolver la respuesta como una consulta SQL
 const postCompletionWithSQL = async (messages) => {
   try {
@@ -44,14 +45,14 @@ const postCompletionWithSQL = async (messages) => {
         stream: false
       })
     });
-
+    
     if (!response.ok) throw new Error('Failed to fetch');
-
+    
     const completion = await response.json();
     const answer = completion.choices[0].message.content;
-
+    
     // Aquí se invoca la función para generar la consulta SQL
-    const sqlQuery = generateSQLQuery(answer);
+    const sqlQuery = extractSQLQuery(answer);
     console.log("Generated SQL query:", sqlQuery);
 
     return sqlQuery;
@@ -60,48 +61,20 @@ const postCompletionWithSQL = async (messages) => {
   }
 };
 
-// Función para generar la consulta SQL a partir de la cadena de respuesta
-const generateSQLQuery = (inputString) => {
-  // Separar el string de entrada por líneas
-  const lines = inputString.split('\n');
+// Función para extraer la consulta SQL de una cadena dada
+function extractSQLQuery(input) {
+  // Expresión regular para encontrar la query SQL que empieza con 'SELECT' y termina con ';'
+  const regex = /SELECT[\s\S]*?;/i;
   
-  // Inicializar las variables para medida y marca
-  let medida = null;
-  let marca = null;
-
-  // Iterar sobre cada línea del string de entrada
-  for (const line of lines) {
-    // Buscar las líneas que contienen información sobre medida y marca
-    if (line.includes('medida')) {
-      const medidaMatch = line.match(/'([^']+)'/);
-      if (medidaMatch) {
-        medida = medidaMatch[1]; // Extraer el valor de medida
-      }
-    } else if (line.includes('marca')) {
-      const marcaMatch = line.match(/'([^']+)'/);
-      if (marcaMatch) {
-        marca = marcaMatch[1]; // Extraer el valor de marca
-      }
-    }
-  }
-
-  // Construir la consulta SQL
-  let query = 'SELECT * FROM NeumaticosAutos\n';
-  query += 'WHERE ';
-
-  // Añadir la condición para medida
-  if (medida) {
-    query += `medida LIKE '%${medida}%'`;
+  // Buscar la query usando la expresión regular
+  const match = input.match(regex);
+  
+  // Si se encuentra una coincidencia, devolverla, de lo contrario devolver un mensaje de error
+  if (match) {
+    return match[0];
   } else {
-    query += '1=1'; // Si no se proporciona medida, no se aplica ningún filtro
+    return "No se encontró una query SQL válida.";
   }
-
-  // Añadir la condición para marca si está presente
-  if (marca) {
-    query += ` AND marca IS NOT NULL`;
-  }
-
-  return query;
-};
+}
 
 module.exports = { postCompletion, postCompletionWithSQL };
