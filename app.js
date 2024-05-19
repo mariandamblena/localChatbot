@@ -24,7 +24,7 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
             let messagesSQL = [
                 {
                     "role": "system",
-                    "content": "tienes que generar una query identica esta:SELECT * FROM consultaCliente WHERE medida LIKE '175%65%14%';(no puedes cambiar la condicion del like) por la medida de neumatico que consulte el cliente. los atributos son medida, marca, modelo, precio_venta y la vista es consultaCliente. solo responder con la query, ser conciso"
+                    "content": "tienes que generar una query igual a esta:SELECT * FROM consultaCliente WHERE medida LIKE 'xxx%yy%zz%';(no puedes cambiar la condicion del like) con la medida del neumatico o goma que consulte el cliente. los atributos son medida, marca, modelo, precio_venta y la tabla es consultaCliente (no existe otra). solo responder con la query, ser conciso."
                 },
                 { "role": "user", "content": ctx.body }
             ];
