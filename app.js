@@ -49,48 +49,46 @@ const flowWelcome = addKeyword(EVENTS.WELCOME).addAnswer(
 const flowEcommerce = addKeyword(EVENTS.ACTION).addAnswer(
     'Esta es nuestra pagina: www.losportones.mercadoshop.com.ar'
 );
-
 const flowConsultas = addKeyword(EVENTS.ACTION)
-    .addAction(
-        async (ctx, ctxFn) => {
-            let messagesSQL = [
+    .addAnswer('Por favor, ingrese la medida del neumático que desea consultar:', { capture: true }, async (ctx, { flowDynamic }) => {
+        let messagesSQL = [
+            {
+                "role": "system",
+                "content": "tienes que generar una query igual a esta:SELECT * FROM consultaCliente WHERE medida LIKE 'xxx%yy%zz%';(no puedes cambiar la condicion del like) con la medida del neumatico o goma que consulte el cliente. los atributos son medida, marca, modelo, precio_venta y la tabla es consultaCliente (no existe otra). solo responder con la query, ser conciso."
+            },
+            { "role": "user", "content": ctx.body }
+        ];
+
+        try {
+            const answerSQL = await postCompletionWithSQL(messagesSQL);
+            console.log("Answer SQL: ", answerSQL);
+
+            if (!answerSQL) {
+                throw new Error("La respuesta SQL está vacía");
+            }
+
+            const tyreQuery = await executeSQLQuery(answerSQL);
+            const tyreQueryText = recordsetToString(tyreQuery);
+            console.log("Tyre Query Text: ", tyreQueryText);
+
+            let messages = [
                 {
                     "role": "system",
-                    "content": "tienes que generar una query igual a esta:SELECT * FROM consultaCliente WHERE medida LIKE 'xxx%yy%zz%';(no puedes cambiar la condicion del like) con la medida del neumatico o goma que consulte el cliente. los atributos son medida, marca, modelo, precio_venta y la tabla es consultaCliente (no existe otra). solo responder con la query, ser conciso."
+                    "content": "Solo recibi el listado de productos e arma el mensaje en forma de lista. Ser conciso, no explayarse y responder en espaniol. Decir: 'tengo estas unidades en stock'"
                 },
-                { "role": "user", "content": ctx.body }
+                { "role": "user", "content": tyreQueryText }
             ];
 
-            try {
-                const answerSQL = await postCompletionWithSQL(messagesSQL);
-                console.log("Answer SQL: ", answerSQL);
+            const answer = await postCompletion(messages);
+            console.log("Answer: ", answer);
 
-                if (!answerSQL) {
-                    throw new Error("La respuesta SQL está vacía");
-                }
-                
-                const tyreQuery = await executeSQLQuery(answerSQL);
-                const tyreQueryText = recordsetToString(tyreQuery);
-                console.log("Tyre Query Text: ", tyreQueryText);
-
-                let messages = [
-                    {
-                        "role": "system",
-                        "content": "Solo recibi el listado de productos e arma el mensaje en forma de lista. Ser conciso, no explayarse y responder en espaniol. Decir: 'tengo estas unidades en stock'"
-                    },
-                    { "role": "user", "content": tyreQueryText }
-                ];
-
-                const answer = await postCompletion(messages);
-                console.log("Answer: ", answer);
-
-                await ctxFn.flowDynamic(answer);
-            } catch (error) {
-                console.error("Error en el flujo principal:", error);
-                await ctxFn.flowDynamic("Hubo un error procesando tu consulta. Por favor, intenta nuevamente.");
-            }
+            await flowDynamic(answer);
+        } catch (error) {
+            console.error("Error en el flujo principal:", error);
+            await flowDynamic("Hubo un error procesando tu consulta. Por favor, intenta nuevamente.");
         }
-    );
+    });
+
 
 
 const main = async () => {
