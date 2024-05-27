@@ -1,11 +1,70 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5491136530246@s.whatsapp.net',
+    remoteJid: '5491122234596@s.whatsapp.net',
     fromMe: false,
-    id: '553EBC85A8C61DF74C',
+    id: '596894496EA7F5F934CABDEF21A2BF38',
     participant: undefined
   },
-  messageTimestamp: 1716338178,
+  messageTimestamp: 1716503948,
+  pushName: 'DIEGO',
+  broadcast: false,
+  message: Message {
+    conversation: 'Que haces loco te dejo la medida 255.60.15 kumho',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Que haces loco te dejo la medida 255.60.15 kumho',
+  from: '5491122234596'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3de9ded9-79c0-495c-8e6a-132050ca588a',
+  keyword: 'key_16d2b126-8cbb-48ae-98ef-177dcc9527eb',
+  answer: 'Hola! te comunicaste con Neumáticos Los Portones. Introducí el número de la accion que quieras hacer:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd6554ac94c82d13b548c158d626c065e'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9075dc5f-2767-48e6-8523-e6984acbbdfb',
+  keyword: 'ans_3de9ded9-79c0-495c-8e6a-132050ca588a',
+  answer: '*1* - Nuestra página para comprar\r\n' +
+    '*2* - Consulta nuestro stock con Inteligencia Artificial\r\n' +
+    '*3* - Estado de tus neumáticos (vulcanizados)\r\n' +
+    '*4* - Listado de servicios realizados en tu vehículo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'bf4636e123e15a61fe82934078577520'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491136530246@s.whatsapp.net',
+    fromMe: false,
+    id: '2A5BD38AF399CA6565',
+    participant: undefined
+  },
+  messageTimestamp: 1716504037,
   pushName: 'Mariano Dambolena',
   broadcast: false,
   message: Message {
@@ -19,8 +78,8 @@
   from: '5491136530246'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
-  keyword: 'key_ef8b0064-2c58-499f-a132-6d0b09d1c1cc',
+  ref: 'ans_3de9ded9-79c0-495c-8e6a-132050ca588a',
+  keyword: 'key_16d2b126-8cbb-48ae-98ef-177dcc9527eb',
   answer: 'Hola! te comunicaste con Neumáticos Los Portones. Introducí el número de la accion que quieras hacer:',
   options: {
     media: null,
@@ -34,11 +93,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '9bdbb367938bdbe905b9f7ff4400e023'
+  refSerialize: 'd6554ac94c82d13b548c158d626c065e'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5e28d63a-0a15-47ae-b3fa-ca32bd753346',
-  keyword: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
+  ref: 'ans_9075dc5f-2767-48e6-8523-e6984acbbdfb',
+  keyword: 'ans_3de9ded9-79c0-495c-8e6a-132050ca588a',
   answer: '*1* - Nuestra página para comprar\r\n' +
     '*2* - Consulta nuestro stock con Inteligencia Artificial\r\n' +
     '*3* - Estado de tus neumáticos (vulcanizados)\r\n' +
@@ -55,16 +114,16 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '1687e39fc2892b5b95aacc3e118e258f'
+  refSerialize: 'bf4636e123e15a61fe82934078577520'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5491136530246@s.whatsapp.net',
     fromMe: false,
-    id: '6332AD67740E761F4B',
+    id: '815AD50799603697B8',
     participant: undefined
   },
-  messageTimestamp: 1716338182,
+  messageTimestamp: 1716504043,
   pushName: 'Mariano Dambolena',
   broadcast: false,
   message: Message {
@@ -81,25 +140,25 @@
   key: {
     remoteJid: '5491136530246@s.whatsapp.net',
     fromMe: false,
-    id: '14FE91A28168F40872',
+    id: '711E24C02524320723',
     participant: undefined
   },
-  messageTimestamp: 1716338185,
+  messageTimestamp: 1716504049,
   pushName: 'Mariano Dambolena',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: '1', contextInfo: [ContextInfo] },
+    extendedTextMessage: ExtendedTextMessage { text: 'menu', contextInfo: [ContextInfo] },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '1',
+  body: 'menu',
   from: '5491136530246'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
-  keyword: 'key_ef8b0064-2c58-499f-a132-6d0b09d1c1cc',
+  ref: 'ans_3de9ded9-79c0-495c-8e6a-132050ca588a',
+  keyword: 'key_16d2b126-8cbb-48ae-98ef-177dcc9527eb',
   answer: 'Hola! te comunicaste con Neumáticos Los Portones. Introducí el número de la accion que quieras hacer:',
   options: {
     media: null,
@@ -113,11 +172,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '9bdbb367938bdbe905b9f7ff4400e023'
+  refSerialize: 'd6554ac94c82d13b548c158d626c065e'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5e28d63a-0a15-47ae-b3fa-ca32bd753346',
-  keyword: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
+  ref: 'ans_9075dc5f-2767-48e6-8523-e6984acbbdfb',
+  keyword: 'ans_3de9ded9-79c0-495c-8e6a-132050ca588a',
   answer: '*1* - Nuestra página para comprar\r\n' +
     '*2* - Consulta nuestro stock con Inteligencia Artificial\r\n' +
     '*3* - Estado de tus neumáticos (vulcanizados)\r\n' +
@@ -134,16 +193,16 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '1687e39fc2892b5b95aacc3e118e258f'
+  refSerialize: 'bf4636e123e15a61fe82934078577520'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5491136530246@s.whatsapp.net',
     fromMe: false,
-    id: '2ABB458C55DB8D65D7',
+    id: 'DB5067F825D76BCC58',
     participant: undefined
   },
-  messageTimestamp: 1716338187,
+  messageTimestamp: 1716504053,
   pushName: 'Mariano Dambolena',
   broadcast: false,
   message: Message {
@@ -160,10 +219,69 @@
   key: {
     remoteJid: '5491136530246@s.whatsapp.net',
     fromMe: false,
-    id: '7547CC6EA5B46A341A',
+    id: '88C1F9AF4F47E09E65',
     participant: undefined
   },
-  messageTimestamp: 1716338191,
+  messageTimestamp: 1716504057,
+  pushName: 'Mariano Dambolena',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'menu', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'menu',
+  from: '5491136530246'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3de9ded9-79c0-495c-8e6a-132050ca588a',
+  keyword: 'key_16d2b126-8cbb-48ae-98ef-177dcc9527eb',
+  answer: 'Hola! te comunicaste con Neumáticos Los Portones. Introducí el número de la accion que quieras hacer:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd6554ac94c82d13b548c158d626c065e'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9075dc5f-2767-48e6-8523-e6984acbbdfb',
+  keyword: 'ans_3de9ded9-79c0-495c-8e6a-132050ca588a',
+  answer: '*1* - Nuestra página para comprar\r\n' +
+    '*2* - Consulta nuestro stock con Inteligencia Artificial\r\n' +
+    '*3* - Estado de tus neumáticos (vulcanizados)\r\n' +
+    '*4* - Listado de servicios realizados en tu vehículo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'bf4636e123e15a61fe82934078577520'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491136530246@s.whatsapp.net',
+    fromMe: false,
+    id: '46A28A04DEECD9EC3A',
+    participant: undefined
+  },
+  messageTimestamp: 1716504059,
   pushName: 'Mariano Dambolena',
   broadcast: false,
   message: Message {
@@ -176,78 +294,19 @@
   body: '2',
   from: '5491136530246'
 }
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
-  keyword: 'key_ef8b0064-2c58-499f-a132-6d0b09d1c1cc',
-  answer: 'Hola! te comunicaste con Neumáticos Los Portones. Introducí el número de la accion que quieras hacer:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9bdbb367938bdbe905b9f7ff4400e023'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5e28d63a-0a15-47ae-b3fa-ca32bd753346',
-  keyword: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
-  answer: '*1* - Nuestra página para comprar\r\n' +
-    '*2* - Consulta nuestro stock con Inteligencia Artificial\r\n' +
-    '*3* - Estado de tus neumáticos (vulcanizados)\r\n' +
-    '*4* - Listado de servicios realizados en tu vehículo',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '1687e39fc2892b5b95aacc3e118e258f'
-}
 [handleMsg]:  {
   key: {
     remoteJid: '5491136530246@s.whatsapp.net',
     fromMe: false,
-    id: '779F416B6C11C37F3A',
+    id: '45AF2D64181755066F',
     participant: undefined
   },
-  messageTimestamp: 1716338195,
-  pushName: 'Mariano Dambolena',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: '2', contextInfo: [ContextInfo] },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '5491136530246'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491136530246@s.whatsapp.net',
-    fromMe: false,
-    id: 'F04CF03CDBEE5E2AD8',
-    participant: undefined
-  },
-  messageTimestamp: 1716338230,
+  messageTimestamp: 1716504071,
   pushName: 'Mariano Dambolena',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: '205 55 16',
+      text: 'que goma tenes 205 55 16',
       contextInfo: [ContextInfo]
     },
     messageContextInfo: MessageContextInfo {
@@ -255,32 +314,35 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: '205 55 16',
+  body: 'que goma tenes 205 55 16',
   from: '5491136530246'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
+    remoteJid: '5491136530246@s.whatsapp.net',
     fromMe: false,
-    id: 'FAC9D2A86807000D26C09C9F881D8F92',
+    id: '0170736A3A945F432E',
     participant: undefined
   },
-  messageTimestamp: 1716338385,
-  pushName: '🫵',
+  messageTimestamp: 1716504162,
+  pushName: 'Mariano Dambolena',
   broadcast: false,
   message: Message {
-    conversation: 'Hola',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'que gomas marca yokohama tenes',
+      contextInfo: [ContextInfo]
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hola',
-  from: '5491141919895'
+  body: 'que gomas marca yokohama tenes',
+  from: '5491136530246'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
-  keyword: 'key_ef8b0064-2c58-499f-a132-6d0b09d1c1cc',
+  ref: 'ans_3de9ded9-79c0-495c-8e6a-132050ca588a',
+  keyword: 'key_16d2b126-8cbb-48ae-98ef-177dcc9527eb',
   answer: 'Hola! te comunicaste con Neumáticos Los Portones. Introducí el número de la accion que quieras hacer:',
   options: {
     media: null,
@@ -294,11 +356,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '9bdbb367938bdbe905b9f7ff4400e023'
+  refSerialize: 'd6554ac94c82d13b548c158d626c065e'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5e28d63a-0a15-47ae-b3fa-ca32bd753346',
-  keyword: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
+  ref: 'ans_9075dc5f-2767-48e6-8523-e6984acbbdfb',
+  keyword: 'ans_3de9ded9-79c0-495c-8e6a-132050ca588a',
   answer: '*1* - Nuestra página para comprar\r\n' +
     '*2* - Consulta nuestro stock con Inteligencia Artificial\r\n' +
     '*3* - Estado de tus neumáticos (vulcanizados)\r\n' +
@@ -315,500 +377,48 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '1687e39fc2892b5b95aacc3e118e258f'
+  refSerialize: 'bf4636e123e15a61fe82934078577520'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
+    remoteJid: '5491136530246@s.whatsapp.net',
     fromMe: false,
-    id: '0E06B5B754D1E7826C2683EE40AB4A9F',
+    id: '4791037590485B1A2E',
     participant: undefined
   },
-  messageTimestamp: 1716338411,
-  pushName: '🫵',
+  messageTimestamp: 1716504165,
+  pushName: 'Mariano Dambolena',
   broadcast: false,
   message: Message {
-    conversation: '2',
+    extendedTextMessage: ExtendedTextMessage { text: '2', contextInfo: [ContextInfo] },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
   body: '2',
-  from: '5491141919895'
+  from: '5491136530246'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
+    remoteJid: '5491136530246@s.whatsapp.net',
     fromMe: false,
-    id: '866044CFD24FA51E38ADA8466B2844D8',
+    id: '07B5A4B56966F017A6',
     participant: undefined
   },
-  messageTimestamp: 1716338432,
-  pushName: '🫵',
+  messageTimestamp: 1716504196,
+  pushName: 'Mariano Dambolena',
   broadcast: false,
   message: Message {
-    conversation: '175 70 13',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'que gomas marca yokohama tenes?',
+      contextInfo: [ContextInfo]
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '175 70 13',
-  from: '5491141919895'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
-    fromMe: false,
-    id: '0FF22078A01980EEF6B7DD3BDEBCCA24',
-    participant: undefined
-  },
-  messageTimestamp: 1716338530,
-  pushName: '🫵',
-  broadcast: false,
-  message: Message {
-    conversation: '175 65 14',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '175 65 14',
-  from: '5491141919895'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
-  keyword: 'key_ef8b0064-2c58-499f-a132-6d0b09d1c1cc',
-  answer: 'Hola! te comunicaste con Neumáticos Los Portones. Introducí el número de la accion que quieras hacer:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9bdbb367938bdbe905b9f7ff4400e023'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5e28d63a-0a15-47ae-b3fa-ca32bd753346',
-  keyword: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
-  answer: '*1* - Nuestra página para comprar\r\n' +
-    '*2* - Consulta nuestro stock con Inteligencia Artificial\r\n' +
-    '*3* - Estado de tus neumáticos (vulcanizados)\r\n' +
-    '*4* - Listado de servicios realizados en tu vehículo',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '1687e39fc2892b5b95aacc3e118e258f'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
-    fromMe: false,
-    id: '7DE4361360685A335C38C98FD0F926E0',
-    participant: undefined
-  },
-  messageTimestamp: 1716338545,
-  pushName: '🫵',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '5491141919895'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
-    fromMe: false,
-    id: 'D9DF967ACEFFCF071DB37E2EAE429590',
-    participant: undefined
-  },
-  messageTimestamp: 1716338550,
-  pushName: '🫵',
-  broadcast: false,
-  message: Message {
-    conversation: '175 65 14',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '175 65 14',
-  from: '5491141919895'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
-    fromMe: false,
-    id: '43934387585D69278525CCE72E8D82DA',
-    participant: undefined
-  },
-  messageTimestamp: 1716338643,
-  pushName: '🫵',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '5491141919895'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
-  keyword: 'key_ef8b0064-2c58-499f-a132-6d0b09d1c1cc',
-  answer: 'Hola! te comunicaste con Neumáticos Los Portones. Introducí el número de la accion que quieras hacer:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9bdbb367938bdbe905b9f7ff4400e023'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5e28d63a-0a15-47ae-b3fa-ca32bd753346',
-  keyword: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
-  answer: '*1* - Nuestra página para comprar\r\n' +
-    '*2* - Consulta nuestro stock con Inteligencia Artificial\r\n' +
-    '*3* - Estado de tus neumáticos (vulcanizados)\r\n' +
-    '*4* - Listado de servicios realizados en tu vehículo',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '1687e39fc2892b5b95aacc3e118e258f'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
-    fromMe: false,
-    id: '2583B53BCBF92357B947545FDAE9388A',
-    participant: undefined
-  },
-  messageTimestamp: 1716338651,
-  pushName: '🫵',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '5491141919895'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
-    fromMe: false,
-    id: '9D5CD22C992F844C6D68113086A880F5',
-    participant: undefined
-  },
-  messageTimestamp: 1716338703,
-  pushName: '🫵',
-  broadcast: false,
-  message: Message {
-    conversation: '245/50/17',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '245/50/17',
-  from: '5491141919895'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
-    fromMe: false,
-    id: 'EE8BEB07AA4CA4514E024DEA58404FB0',
-    participant: undefined
-  },
-  messageTimestamp: 1716338741,
-  pushName: '🫵',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '5491141919895'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
-  keyword: 'key_ef8b0064-2c58-499f-a132-6d0b09d1c1cc',
-  answer: 'Hola! te comunicaste con Neumáticos Los Portones. Introducí el número de la accion que quieras hacer:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9bdbb367938bdbe905b9f7ff4400e023'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5e28d63a-0a15-47ae-b3fa-ca32bd753346',
-  keyword: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
-  answer: '*1* - Nuestra página para comprar\r\n' +
-    '*2* - Consulta nuestro stock con Inteligencia Artificial\r\n' +
-    '*3* - Estado de tus neumáticos (vulcanizados)\r\n' +
-    '*4* - Listado de servicios realizados en tu vehículo',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '1687e39fc2892b5b95aacc3e118e258f'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
-    fromMe: false,
-    id: 'CFFF76C3F1F37CAD5718772CA0794C47',
-    participant: undefined
-  },
-  messageTimestamp: 1716338745,
-  pushName: '🫵',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '5491141919895'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
-    fromMe: false,
-    id: 'C4CDE5E1E977154E2DD95116BA528E47',
-    participant: undefined
-  },
-  messageTimestamp: 1716338767,
-  pushName: '🫵',
-  broadcast: false,
-  message: Message {
-    conversation: '225 45 17',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '225 45 17',
-  from: '5491141919895'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
-    fromMe: false,
-    id: '1764771FC6F5C2843418F79F3DBC82A2',
-    participant: undefined
-  },
-  messageTimestamp: 1716339073,
-  pushName: '🫵',
-  broadcast: false,
-  message: Message {
-    conversation: 'Esta muy bueno 👌',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Esta muy bueno 👌',
-  from: '5491141919895'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
-  keyword: 'key_ef8b0064-2c58-499f-a132-6d0b09d1c1cc',
-  answer: 'Hola! te comunicaste con Neumáticos Los Portones. Introducí el número de la accion que quieras hacer:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9bdbb367938bdbe905b9f7ff4400e023'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5e28d63a-0a15-47ae-b3fa-ca32bd753346',
-  keyword: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
-  answer: '*1* - Nuestra página para comprar\r\n' +
-    '*2* - Consulta nuestro stock con Inteligencia Artificial\r\n' +
-    '*3* - Estado de tus neumáticos (vulcanizados)\r\n' +
-    '*4* - Listado de servicios realizados en tu vehículo',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '1687e39fc2892b5b95aacc3e118e258f'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
-    fromMe: false,
-    id: '1F0200E4B56C394BF352F8484FABCFE4',
-    participant: undefined
-  },
-  messageTimestamp: 1716339091,
-  pushName: '🫵',
-  broadcast: false,
-  message: Message {
-    conversation: 'Tenes gomas',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Tenes gomas',
-  from: '5491141919895'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
-    fromMe: false,
-    id: 'E5B7E04C123EED6866A8683664098F52',
-    participant: undefined
-  },
-  messageTimestamp: 1716339106,
-  pushName: '🫵',
-  broadcast: false,
-  message: Message {
-    conversation: '4',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '4',
-  from: '5491141919895'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491141919895@s.whatsapp.net',
-    fromMe: false,
-    id: '7D687AC583190D2F185B1040C089372D',
-    participant: undefined
-  },
-  messageTimestamp: 1716339122,
-  pushName: '🫵',
-  broadcast: false,
-  message: Message {
-    conversation: 'Tirar la goma',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Tirar la goma',
-  from: '5491141919895'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
-  keyword: 'key_ef8b0064-2c58-499f-a132-6d0b09d1c1cc',
-  answer: 'Hola! te comunicaste con Neumáticos Los Portones. Introducí el número de la accion que quieras hacer:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9bdbb367938bdbe905b9f7ff4400e023'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5e28d63a-0a15-47ae-b3fa-ca32bd753346',
-  keyword: 'ans_85caec34-7d04-48a1-8e24-b20e9aca0114',
-  answer: '*1* - Nuestra página para comprar\r\n' +
-    '*2* - Consulta nuestro stock con Inteligencia Artificial\r\n' +
-    '*3* - Estado de tus neumáticos (vulcanizados)\r\n' +
-    '*4* - Listado de servicios realizados en tu vehículo',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '1687e39fc2892b5b95aacc3e118e258f'
+  body: 'que gomas marca yokohama tenes?',
+  from: '5491136530246'
 }
